@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+.hero1 {
+  background-image: url("img/image/HeroImage.png");
+  width: 1442px;
+  height: 773px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tour {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 100px;
+  padding: 0 118px;
+  color: white;
+}
+.EN {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  padding: 13px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.text {
+  display: flex;
+  gap: 24px;
+}
+.Text2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 618px;
+  height: 394px;
+  margin-top: 69px;
+}
+.Text2 h1 {
+  font-size: 80px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e8edf2b8;
+}
+.Text2 h2 {
+  font-size: 250px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.Text2 h3 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+}
+.location {
+  background-image: url("img/image/sec2-bg.png");
+  width: 1442px;
+  height: 500px;
+  color: white;
+  font-size: 37px;
+  font-family: "Bebas Neue";
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.loc1 {
+  width: 275.49px;
+  height: 370px;
+  background-image: url("img/image/sec2-location1.png");
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.loc1 p {
+  width: 232px;
+  height: 88px;
+  text-align: center;
+}
+.loc2 {
+  width: 275.49px;
+  height: 370px;
+  background-image: url("img/image/sec2-location2.png");
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.loc3 {
+  width: 275.49px;
+  height: 370px;
+  background-image: url("img/image/sec2-location3.png");
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.loc4 {
+  width: 275.49px;
+  height: 370px;
+  background-image: url("img/image/sec2-location4.png");
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.loc2 p {
+  width: 232px;
+  height: 88px;
+  text-align: center;
+}
+.loc1:hover {
+  filter: brightness(70%);
+}
+.loc2:hover {
+  filter: brightness(70%);
+}
+.loc3:hover {
+  filter: brightness(70%);
+}
+.loc4:hover {
+  filter: brightness(70%);
+}
+.map {
+  background-image: url(img/image/sec3-bg.png);
+  width: 1442px;
+  height: 990px;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map h3 {
+  color: #18181bb2;
+  font-size: 20px;
+}
+.map h1 {
+  font-size: 42px;
+}
+.frame {
+  width: 1200px;
+  height: 640px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 513px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.day {
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-container {
+  width: 513px;
+  height: 112px;
+  background-color: #eee9d9;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px;
+  justify-content: space-between;
+}
+.left_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 217px;
+  height: 58px;
+}
+.left-2 {
+  display: flex;
+}
+.left p {
+  width: 316px;
+  height: 29px;
+}
+.left-container1 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bb8c1cc;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px;
+  justify-content: space-between;
+}
+.left-container2 {
+  width: 513px;
+  height: 112px;
+  background-color: #aad8d7cc;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px;
+  justify-content: space-between;
+}
+.left-container3 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bc0bdcc;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px;
+  justify-content: space-between;
+}
+.left-container4 {
+  width: 513px;
+  height: 112px;
+  background-color: #97cce0cc;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px;
+  justify-content: space-between;
+}
+.section {
+  position: relative;
+}
+.rigth {
+  width: 647px;
+  height: 640px;
+}
+.image {
+  position: absolute;
+  left: 50%;
+  display: none;
+}
+.left-container:hover .image {
+  display: block;
+}
+.left-container:hover {
+  border: solid black;
+}
+.left-container1:hover {
+  border: solid black;
+}
+.left-container2:hover {
+  border: solid black;
+}
+.left-container3:hover {
+  border: solid black;
+}
+.left-container4:hover {
+  border: solid black;
+}
+.footer {
+  background-image: url("img/image/sec4-bg.png");
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_container {
+  width: 1200px;
+  height: 527px;
+}
+.card1 {
+  width: 384px;
+  height: 584px;
+  background-color: white;
+  border-radius: 40px;
+}
+.header {
+  display: flex;
+  padding: var(--spacing-8, 32px) var(--24-px-unit-6, 24px)
+    var(--24-px-unit-6, 24px) var(--24-px-unit-6, 24px);
+  align-items: center;
+  gap: var(--16-px-unit-4, 16px);
+  align-self: stretch;
+}
+.price {
+  width: 336px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.Tcontainer img {
+  width: 20px;
+  height: 20px;
+}
+.Tcontainer {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+}
