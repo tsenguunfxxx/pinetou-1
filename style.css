@@ -313,36 +313,113 @@ section {
 .card_container {
   width: 1200px;
   height: 527px;
+  display: flex;
+  gap: 24px;
 }
 .card1 {
   width: 384px;
   height: 584px;
   background-color: white;
   border-radius: 40px;
+  position: relative;
+  margin-top: 30px;
 }
-.header {
+.head h1 {
+  font-size: 18px;
+}
+.head {
   display: flex;
+  align-items: center;
+  gap: 16px;
   padding: var(--spacing-8, 32px) var(--24-px-unit-6, 24px)
     var(--24-px-unit-6, 24px) var(--24-px-unit-6, 24px);
-  align-items: center;
-  gap: var(--16-px-unit-4, 16px);
-  align-self: stretch;
+}
+.price_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
 }
 .price {
   width: 336px;
-  height: 76px;
+  height: 180px;
   display: flex;
   flex-direction: column;
-
-  gap: 10px;
+  padding: 30px;
+  gap: 32px;
 }
-.Tcontainer img {
-  width: 20px;
-  height: 20px;
-}
-.Tcontainer {
+.price1 {
+  width: 336px;
+  height: 180px;
   display: flex;
-  align-items: end;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--16-px-unit-4, 16px);
+  align-self: stretch;
+}
+.text1 {
+  display: flex;
+  align-items: center;
+}
+.text2 {
+  display: flex;
+  align-items: center;
+}
+.text3 {
+  display: flex;
+  align-items: center;
+}
+.text4 {
+  display: flex;
+  align-items: center;
+}
+.select {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 40px;
+  position: absolute;
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 320px;
+}
+.select1 {
+  font-size: 20px;
+}
+.end {
+  width: 1440px;
+  height: 204px;
+  background-color: #9fc6de;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 120px;
+}
+.fb {
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: var(--radius-rounded-full, 9999px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.ig {
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: var(--radius-rounded-full, 9999px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 10px;
 }
